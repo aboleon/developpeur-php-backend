@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 120.94667 51.253334"
+   height="51.253334"
+   width="120.94667"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,51.253333)"
+     id="g10"><g
+       transform="scale(0.1)"
+       id="g12"><path
+         id="path14"
+         style="fill:#e3000b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 721.047,384.359 V 93.4023 h 186.074 v 54.5507 h -90.918 v 66.406 h 78.652 v 53.282 h -78.652 v 62.597 h 90.918 v 54.121 H 721.047" /><path
+         id="path16"
+         style="fill:#e3000b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 660.324,136 V 384.359 H 565.715 V 128.402 c 0,-41.3942 -20.703,-64.2067 -49.426,-72.2262 V 0.00390625 C 594.434,2.95313 660.324,47.3008 660.324,136" /><path
+         id="path18"
+         style="fill:#e3000b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 410.02,384.359 V 93.7031 h 94.96 V 384.359 h -94.96" /><path
+         id="path20"
+         style="fill:#e3000b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 369.582,93.7656 334.105,384.359 h -89.968 l -51.11,-142.761 c -3.804,-10.137 -6.332,-18.586 -9.711,-32.102 h -0.843 c -2.965,12.676 -5.918,22.813 -9.297,32.531 L 125.449,384.359 H 35.0586 L 0,93.7656 H 77.7188 L 91.2305,239.906 c 0.8515,8.028 0.8515,17.317 0.8515,24.922 v 10.977 h 0.8438 c 2.5351,-10.125 6.7578,-24.492 10.9802,-35.899 L 156.703,93.7656 h 43.082 l 53.223,146.1404 c 6.754,18.586 8.867,28.723 10.98,35.899 h 0.848 c 0,-4.219 0,-21.953 1.269,-35.899 L 279.613,93.7656 h 89.969" /></g></g></svg>

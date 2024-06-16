@@ -1,0 +1,65 @@
+{
+    "panel.crush.css": {
+        "imports": [
+            "..\/vendor\/aboleon\/framework\/css\/panel.css",
+            "..\/vendor\/aboleon\/framework\/css\/fragments\/debugger.css",
+            "..\/vendor\/aboleon\/framework\/css\/fragments\/colors.css",
+            "..\/vendor\/aboleon\/framework\/css\/gentellela.css",
+            "..\/vendor\/aboleon\/framework\/css\/fragments\/_nav.css",
+            "..\/vendor\/aboleon\/framework\/css\/fragments\/_alerts.css",
+            "..\/vendor\/aboleon\/framework\/css\/fragments\/_buttons.css",
+            "..\/vendor\/aboleon\/framework\/css\/fragments\/components.css",
+            "..\/vendor\/aboleon\/framework\/css\/fragments\/publication_status.css"
+        ],
+        "datem_sum": 17033907207,
+        "options": {
+            "minify": true,
+            "formatter": null,
+            "versioning": true,
+            "boilerplate": true,
+            "vars": [],
+            "cache": true,
+            "context": null,
+            "import_path": null,
+            "output_file": null,
+            "output_dir": null,
+            "asset_dir": null,
+            "doc_root": null,
+            "vendor_target": "all",
+            "rewrite_import_urls": true,
+            "plugins": null,
+            "settings": [],
+            "stat_dump": false,
+            "source_map": false,
+            "newlines": "use-platform"
+        }
+    },
+    "front.crush.css": {
+        "imports": [
+            "fragments\/colors.css",
+            "fragments\/nav.css"
+        ],
+        "datem_sum": 5099376497,
+        "options": {
+            "minify": true,
+            "formatter": null,
+            "versioning": true,
+            "boilerplate": true,
+            "vars": [],
+            "cache": true,
+            "context": null,
+            "import_path": null,
+            "output_file": null,
+            "output_dir": null,
+            "asset_dir": null,
+            "doc_root": null,
+            "vendor_target": "all",
+            "rewrite_import_urls": true,
+            "plugins": null,
+            "settings": [],
+            "stat_dump": false,
+            "source_map": false,
+            "newlines": "use-platform"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import "../vendor/aboleon/framework/css/panel.css";
+.aboleon-framework-actions {
+    float: right;
+}
+.yajra-datatable, .table.index {
+    thead th:last-of-type {
+        text-align: right;
+    }
+}
+.add-dynamic {
+    cursor: pointer;navbar-brand
+    i {
+        color: #73879C;
+        transition: 200ms all ease;
+        &:hover {
+            color: #48a97c;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<?php
+
+return [
+    'translatable' => [
+        'multilang' => false,
+        'locales' => ['fr', 'en'],
+        'active_locales' => ['fr', 'en'],
+        'fallback_locale' => 'fr',
+    ],
+    'urls' => [
+        'backend' => 'panel'
+    ],
+    'tables' => [
+        'user' => 'users'
+    ],
+    'siteowner' => [
+        'active' => true,
+        'reg_number' => 'SIRET',
+        'address_lines' => 1
+    ],
+];

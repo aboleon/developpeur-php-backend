@@ -1,0 +1,20 @@
+.nav-link {
+    padding: 14px 26px !important;
+    color: white;
+    margin-right: 4px;
+    border-radius: 4px;
+    &:focus {
+        color: white;
+    }
+
+    &.active, &:hover {
+        background: #ffffff;
+        color: #b42757 !important;
+        font-weight: 600;
+        opacity: 0.9;
+        border-radius: 4px;
+    }
+    &:not(.active) {
+        opacity: 0.9;
+    }
+}
