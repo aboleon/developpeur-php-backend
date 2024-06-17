@@ -35,11 +35,6 @@
 
     <br><br>
 
-
-    <footer class="container mb-5">
-        <span style="font-size: 16px;">Code & Design : Andrian Mihailov &copy; {{ date('Y') }}</span>
-    </footer>
-
     @push('js')
 
         <script>

@@ -8,37 +8,37 @@ return [
             [
                 'type' => 'text',
                 'name' => 'first_name',
-                'grid' => 'col-lg-6'
+                'grid' => 'col-sm-6 col-12'
             ],
             [
                 'type' => 'text',
                 'name' => 'last_name',
-                'grid' => 'col-lg-6'
+                'grid' => 'col-sm-6 col-12'
             ],
             [
                 'type' => 'text',
                 'name' => 'company',
-                'grid' => 'col-lg-6'
+                'grid' => 'col-sm-6 col-12'
             ],
             [
                 'type' => 'text',
                 'name' => 'website',
-                'grid' => 'col-lg-6'
+                'grid' => 'col-sm-6 col-12'
             ],
             [
                 'type' => 'email',
                 'name' => 'email',
-                'grid' => 'col-lg-6'
+                'grid' => 'col-sm-6 col-12'
             ],
             [
                 'type' => 'text',
                 'name' => 'phone',
-                'grid' => 'col-lg-6'
+                'grid' => 'col-sm-6 col-12'
             ],
             [
                 'type' => 'textarea',
                 'name' => 'message',
-                'grid' => 'col-lg-12'
+                'grid' => 'col-sm-12'
             ],
         ],
     ]

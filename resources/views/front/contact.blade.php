@@ -35,5 +35,7 @@
         <x-form form="contact"/>
     </div>
 
+    <br>
+    <br>
 
 </x-front-layout>
