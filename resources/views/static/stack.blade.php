@@ -1,4 +1,4 @@
-<section id="stack">
+<section id="stack" class="page-break-inside page-break-after">
     <div class="ab-badge-container my-5">
         <h2 class="ab-badge">Stack</h2>
         <div class="aboleon-framework-line-separator"></div>

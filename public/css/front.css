@@ -5,6 +5,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.page-break-before {
+    page-break-before: always;
+}
+.page-break-after {
+    page-break-after: always;
+}
+.page-break-inside {
+    page-break-inside: avoid;
+}
+
 h4 {
     font-size: 20px;
     color: black;
@@ -70,8 +80,7 @@ h1.name {
     background-color: var(--base-1);
     color: #fff;
     font-weight: 600;
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 35px;
     border-radius: 5px;
     display: inline-block;
     padding: 15px 25px;
@@ -384,16 +393,20 @@ section.company {
         bottom: 10%;
     }
 }
+
 .navbar-toggler {
-    border:none !important;
+    border: none !important;
+
     &:focus {
         box-shadow: none !important;
     }
+
     i {
         color: white;
         font-size: 28px;
     }
 }
+
 @media only screen and (max-width: 767px) {
     main {
         padding-top: 100px;
@@ -415,10 +428,11 @@ section.company {
     }
 
     .lead {
-        font-size: 38px;
-        font-weight: 300;
-        margin: 40px 16px;
-        line-height: 47px;
+        font-size: 28px;
+        font-weight: 500;
+        margin: 40px 0;
+        line-height: 34px;
+        text-align: center;
     }
 
     #logos {
@@ -447,6 +461,7 @@ section.company {
     ul.parcours {
         > li {
             margin-top: initial !important;
+
             div.single-box {
                 width: 100%;
             }
@@ -460,4 +475,89 @@ section.company {
     .navbar-nav .nav-item:last-of-type {
         padding-bottom: 70px;
     }
+    .job-title {
+        margin: 0 0 40px 0;
+    }
+}
+
+body.pdf {
+    nav {
+        display: none;
+    }
+
+    main {
+        padding-top: 0;
+    }
+
+    h1.name {
+        font-size: 40px;
+    }
+
+    .lead {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 60px;
+    }
+
+    #hello {
+        column-count: 2;
+        font-size: 17px;
+
+        p {
+            line-height: 28px;
+            padding: 25px !important;
+        }
+    }
+
+    .ab-badge {
+        font-size: 24px;
+    }
+
+    ul.parcours > li {
+        display: block;
+        margin: 0 0 15px !important;
+
+        &:last-of-type {
+            margin-bottom: 50px !important;
+        }
+
+        div.single-box {
+            width: 100%;
+
+            &:after {
+                border-bottom: none !important;
+                border-radius: 0 !important;
+            }
+
+            ul {
+                margin-top: 10px;
+
+                li {
+                    padding-bottom: 9px;
+                }
+            }
+        }
+    }
+
+    section#projets, section#stack {
+        padding-top: 10px !important;
+    }
+
+    div.projects {
+        margin-top: -10px;
+    }
+    #stack .ab-card {
+        margin-bottom: 60px;
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+img.amihailov {
+
+    height: 270px;
+    border-radius: 16px;
 }

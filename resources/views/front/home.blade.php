@@ -8,9 +8,10 @@
                         Mihailov
                     </h1>
                     <span class="email">andrian@developpeur-php-backend.fr</span>
-                </div>
-                <div class="col-sm-5">
                     <span class="job-title">Developpeur Full Stack PHP</span>
+                </div>
+                <div class="col-sm-5 text-sm-end text-center">
+                    <img src="{{ asset('media/amihailov.jpg') }}" class="amihailov" height="270" alt="Andrian Mihailov" />
                 </div>
             </div>
             <h2 class="lead">Développement et conception d'applications web pour startups et grandes entreprises

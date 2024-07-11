@@ -45,7 +45,7 @@
 
 
 </head>
-<body>
+<body{!! request()->has('pdf') ? ' class="pdf"' : "" !!}>
 
 
 <nav class="navbar navbar-expand-lg fixed-top">
@@ -70,6 +70,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link static {{ Route::currentRouteName() == 'contact' ? 'active' : '' }}" href="{{ url('contact') }}">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link static" target="_blank" href="{{ asset('media/AndrianMihailov2024.pdf') }}">PDF</a>
                 </li>
             </ul>
         </div>

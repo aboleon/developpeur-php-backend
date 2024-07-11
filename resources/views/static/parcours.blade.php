@@ -1,4 +1,4 @@
-<section id="parcours">
+<section id="parcours" class="page-break-after">
     <div class="ab-badge-container my-5 reverse">
         <h2 class="ab-badge">Parcours</h2>
         <div class="aboleon-framework-line-separator"></div>
