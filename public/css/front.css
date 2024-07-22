@@ -8,9 +8,11 @@ html {
 .page-break-before {
     page-break-before: always;
 }
+
 .page-break-after {
     page-break-after: always;
 }
+
 .page-break-inside {
     page-break-inside: avoid;
 }
@@ -330,6 +332,7 @@ ul.parcours {
     font-weight: bold;
     text-align: center;
     line-height: 1;
+    text-wrap: nowrap;
 }
 
 .ab-badge-container {
@@ -475,6 +478,7 @@ section.company {
     .navbar-nav .nav-item:last-of-type {
         padding-bottom: 70px;
     }
+
     .job-title {
         margin: 0 0 40px 0;
     }
@@ -547,8 +551,10 @@ body.pdf {
     div.projects {
         margin-top: -10px;
     }
+
     #stack .ab-card {
         margin-bottom: 60px;
+
         ul {
             margin: 0;
             padding: 0;
@@ -560,4 +566,33 @@ img.amihailov {
 
     height: 270px;
     border-radius: 16px;
+}
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:  none;
+    padding: 0;
+
+    li {
+        width: 50%;
+        box-sizing: border-box;
+        font-size: 17px;
+        padding-bottom: 40px;
+        padding-right: 10%;
+        line-height: 25px;
+        strong {
+            display: block;
+            color: var(--base-1);
+            font-size: 20px;
+            margin-bottom: 14px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .two-columns li {
+        width: 100%;
+    }
 }

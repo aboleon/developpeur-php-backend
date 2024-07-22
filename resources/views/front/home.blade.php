@@ -29,6 +29,7 @@
         @include('static.stack')
         @include('static.parcours')
         @include('static.projects')
+        @include('static.softskill')
 
 
     </div>
