@@ -410,6 +410,13 @@ section.company {
     }
 }
 
+
+.colcount-2 {
+    column-count: 2;
+    column-gap: 80px;
+}
+
+
 @media only screen and (max-width: 767px) {
     main {
         padding-top: 100px;
@@ -480,7 +487,16 @@ section.company {
     }
 
     .job-title {
-        margin: 0 0 40px 0;
+        width: 100%;
+
+        margin: 0 0 10px 0;
+        &:last-of-type {
+            margin: 0 0 40px 0;
+        }
+    }
+
+    .colcount-2 {
+        column-count: unset;
     }
 }
 
@@ -591,8 +607,12 @@ img.amihailov {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 428px) {
     .two-columns li {
         width: 100%;
     }
+}
+
+b {
+    font-weight: 700;color: #d52460;
 }

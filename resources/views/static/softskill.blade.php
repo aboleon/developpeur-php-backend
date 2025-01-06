@@ -1,9 +1,9 @@
-<section id="parcours" class="page-break-after">
+<section id="sskills" class="page-break-after">
     <div class="ab-badge-container my-5 reverse">
         <h2 class="ab-badge">Soft skills</h2>
         <div class="aboleon-framework-line-separator"></div>
     </div>
-    <ul id="softskills" class="two-columns">
+    <ul id="softskills" class="two-columns ">
         <li><strong>Gestion de projets</strong> Coordination de multiples projets en parallèle avec respect des échéances strictes.</li>
         <li><strong>Communication efficace</strong> Collaboration avec les équipes et parties prenantes, offrant des retours constructifs et motivants.</li>
         <li><strong>Analyse critique</strong> Évaluation des processus et des performances, avec recommandations basées sur des données précises.</li>

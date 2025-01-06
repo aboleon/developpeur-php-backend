@@ -1,0 +1,66 @@
+nav.fixed-top {
+    display: none;
+}
+
+main {
+    padding-top: 30px;
+}
+
+.ab-badge {
+    transform: none !important;
+}
+
+.ab-badge-container {
+
+    &.reverse {
+        flex-direction: initial;
+
+        .aboleon-framework-line-separator {
+            margin-left: 40px;
+            margin-right: 0;
+        }
+    }
+
+}
+
+ul.parcours > li {
+    div.single-box {
+        display: block;
+        width: 100%;
+        position: initial;
+
+        &:after {
+            content: none;
+        }
+
+        .flex-row-reverse {
+            flex-direction: initial !important;
+
+            .bordered {
+                border-right: none;
+                border-left: 1px solid #dee2e6;
+            }
+        }
+    }
+
+    &.second, &.third, &.fourth, &.fifth, &.sixth, &.seven {
+        margin: 0;
+    }
+
+    &.fifth, &.seven {
+        div.single-box .flex-row-reverse {
+            flex-direction: row-reverse !important;
+
+            .bordered {
+                border-left: none;
+                border-right: 1px solid #dee2e6;
+            }
+        }
+    }
+}
+.page-break-after {
+    page-break-after: unset;
+}
+#stack {
+    margin: 140px 0;
+}

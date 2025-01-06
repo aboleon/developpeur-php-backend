@@ -3,13 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Développeur PHP Backend - Expertise en PHP, Laravel, SQL, HTML, CSS, JavaScript et jQuery. Solutions professionnelles sur mesure pour vos projets web.">
-    <meta name="keywords" content="développeur PHP, backend, PHP, Laravel, SQL, HTML, CSS, JavaScript, jQuery, développement web">
+    <meta name="description"
+          content="Développeur PHP Backend - Expertise en PHP, Laravel, SQL, HTML, CSS, JavaScript et jQuery. Solutions professionnelles sur mesure pour vos projets web.">
+    <meta name="keywords"
+          content="développeur PHP, backend, PHP, Laravel, SQL, HTML, CSS, JavaScript, jQuery, développement web">
     <meta name="author" content="Andrian Mihailov">
 
     <!-- Open Graph Meta Tags for Social Media Sharing -->
     <meta property="og:title" content="Développeur PHP Backend">
-    <meta property="og:description" content="Expertise en PHP, Laravel, SQL, HTML, CSS, JavaScript et jQuery. Solutions sur mesure pour vos projets web.">
+    <meta property="og:description"
+          content="Expertise en PHP, Laravel, SQL, HTML, CSS, JavaScript et jQuery. Solutions sur mesure pour vos projets web.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://developpeur-php-backend.fr">
     <meta property="og:image" content="{{ asset('media/thumbnail.png') }}">
@@ -17,7 +20,8 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Développeur PHP Backend">
-    <meta name="twitter:description" content="Expertise en PHP, Laravel, SQL, HTML, CSS, JavaScript et jQuery. Solutions sur mesure pour vos projets web.">
+    <meta name="twitter:description"
+          content="Expertise en PHP, Laravel, SQL, HTML, CSS, JavaScript et jQuery. Solutions sur mesure pour vos projets web.">
     <meta name="twitter:image" content="{{ asset('media/thumbnail.png') }}">
 
     <title>Développeur PHP Backend</title>
@@ -40,6 +44,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
     {!! csscrush_tag(public_path('css/front.css')) !!}
+    @if(request()->has('print'))
+        {!! csscrush_tag(public_path('css/front_print.css')) !!}
+    @endif
 
     @stack('css')
 
@@ -57,7 +64,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() != 'contact' ? 'active' : '' }}" aria-current="page" href="{{ url('/#presentation') }}">Présentation</a>
+                    <a class="nav-link {{ Route::currentRouteName() != 'contact' ? 'active' : '' }}" aria-current="page"
+                       href="{{ url('/#presentation') }}">Présentation</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/#stack') }}">Stack</a>
@@ -69,10 +77,12 @@
                     <a class="nav-link" href="{{ url('/#projets') }}">Projets</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link static {{ Route::currentRouteName() == 'contact' ? 'active' : '' }}" href="{{ url('contact') }}">Contact</a>
+                    <a class="nav-link static {{ Route::currentRouteName() == 'contact' ? 'active' : '' }}"
+                       href="{{ url('contact') }}">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link static" target="_blank" href="{{ asset('media/AndrianMihailov2024.pdf') }}">PDF</a>
+                    <a class="nav-link static" target="_blank"
+                       href="{{ asset('media/AndrianMihailov2024.pdf') }}">PDF</a>
                 </li>
             </ul>
         </div>
@@ -87,10 +97,9 @@
     @endif
 
 
-
-        <footer class="container mb-5">
-            <span style="font-size: 16px;">Code & Design : Andrian Mihailov &copy; {{ date('Y') }}</span>
-        </footer>
+    <footer class="container mb-5">
+        <span style="font-size: 16px;">Code & Design : Andrian Mihailov &copy; {{ date('Y') }}</span>
+    </footer>
 
 </main>
 

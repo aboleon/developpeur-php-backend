@@ -1,5 +1,5 @@
-<div class="pt-3" id="hello">
-<p class="pb-4">Bonjour ! Je suis Andrian, <strong>développeur PHP professionnel</strong> avec <span
+<div class="pt-3 colcount-2" id="hello">
+<p class="pb-4">Bonjour ! Je suis Andrian, <strong>Chef de projet technique et développeur PHP professionnel</strong> avec <span
         style="font-weight: 700;color: #d52460;">plus de 15 ans d'expérience</span>.</p>
 <p class="pb-4">
     Mes domaines de prédilection sont les applications web sur mesure CRM, ERP, applications métier, des sites

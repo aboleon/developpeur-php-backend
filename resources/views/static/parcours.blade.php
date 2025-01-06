@@ -1,5 +1,5 @@
-<section id="parcours" class="page-break-after">
-    <div class="ab-badge-container my-5 reverse">
+<section id="parcours">
+    <div class="ab-badge-container my-4 reverse">
         <h2 class="ab-badge">Parcours</h2>
         <div class="aboleon-framework-line-separator"></div>
     </div>
@@ -9,7 +9,7 @@
                 <div class="row justify-between">
                     <div class="col-sm-4">
                         <img loading="lazy" src="https://www.web-worker.fr/assets/logos/wagaia.png"/>
-                        <span class="period">2022 - 2024</span>
+                        <span class="period">2022 - 2025</span>
 
                         <section class="company">
                             Agence web<br><strong>Marseille</strong>
@@ -156,7 +156,7 @@
             <div class="single-box">
                 <div class="row justify-between flex-row-reverse">
                     <div class="col-sm-8">
-                        <h3 class="title">Développeur web</h3>
+                        <h3 class="title">Manager / Développeur web</h3>
 
                         <h5>Sites Internet & applications web</h5>
                         <ul>

@@ -9,9 +9,11 @@
                     </h1>
                     <span class="email">andrian@developpeur-php-backend.fr</span>
                     <span class="job-title">Developpeur Full Stack PHP</span>
+                    <span class="job-title" style="background-color: #3f5370;">Chef de projet technique</span>
                 </div>
                 <div class="col-sm-5 text-sm-end text-center">
-                    <img src="{{ asset('media/amihailov.jpg') }}" class="amihailov" height="270" alt="Andrian Mihailov" />
+                    <img src="{{ asset('media/amihailov.jpg') }}" class="amihailov" height="270"
+                         alt="Andrian Mihailov"/>
                 </div>
             </div>
             <h2 class="lead">Développement et conception d'applications web pour startups et grandes entreprises
@@ -26,10 +28,11 @@
 
             @include('static.hello')
         </section>
-        @include('static.stack')
         @include('static.parcours')
         @include('static.projects')
+        @include('static.stack')
         @include('static.softskill')
+        @include('static.personal')
 
 
     </div>
