@@ -12,11 +12,17 @@
             <div class="ab-card shadow p-4 pb-2 bg-body-tertiary rounded">
 
                 <ul>
-                    <li>+ 15 ans d'expérience</li>
+                    <li>
+                        <span class="lg_fr">+ 15 ans d'expérience</span>
+                        <span class="lg_en d-none">+ 15 years of experience</span>
+                    </li>
                     <li>v. 5 - 8.x</li>
                     <li>SOLID</li>
                     <li>Design patterns</li>
-                    <li>Architecture d'applications</li>
+                    <li>
+                        <span class="lg_fr">Architecture d'applications</span>
+                        <span class="lg_en d-none">Applications architecture</span>
+                    </li>
                     <li>Refactoring & Legacy</li>
                     <li>API</li>
                     <li>Composer packages</li>
@@ -29,7 +35,9 @@
             <div class="ab-card shadow p-4 pb-2 bg-body-tertiary rounded">
 
                 <ul>
-                    <li>Laravel (+10 ans d'expérience)</li>
+                    <li>Laravel
+                        <span class="lg_fr">+ 10 ans d'expérience</span>
+                        <span class="lg_en d-none">+ 10 years of experience</span></li>
                     <li>Livewire</li>
                 </ul>
             </div>

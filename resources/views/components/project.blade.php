@@ -3,21 +3,24 @@
 
         <div class="row align-items-center">
             <div class="col-4">
-                <img loading="lazy" src="{{ $input['logo'] }}" width="{{ $input['logo_width'] ?? 60 }}" alt="{{ $input['account'] }}"/>
+                <img loading="lazy" src="{{ $input['logo'] }}" width="{{ $input['logo_width'] ?? 60 }}"
+                     alt="{{ $input['account']['fr'] }}"/>
             </div>
             <div class="col-8 text-sm-end">
-                <strong>{{ $input['account'] }}</strong>
+                 <span class="lg_fr"><strong>{{ $input['account']['fr'] }}</strong></span>
+                <span class="lg_en d-none">{{ $input['account']['en'] }}</span>
             </div>
         </div>
 
         <p class="my-3">
-            {{ $input['text'] }}
+            <span class="lg_fr">{{ $input['text']['fr'] }}</span>
+            <span class="lg_en d-none">{{ $input['text']['en'] }}</span>
         </p>
         @if(isset($input['tag']))
             <div class="tags mb-4">
-            @foreach($input['tag'] as $tag)
-                <span class="btn btn-sm">{{ $tag }}</span>
-            @endforeach
+                @foreach($input['tag'] as $tag)
+                    <span class="btn btn-sm">{{ $tag }}</span>
+                @endforeach
             </div>
         @endif
 
@@ -27,9 +30,9 @@
 </div>
 @pushonce('js')
     <script>
-        $(function() {
-            $('.row.projects .ab-card').click(function() {
-               window.open($(this).find('a').attr('href'), '_blank');
+        $(function () {
+            $('.row.projects .ab-card').click(function () {
+                window.open($(this).find('a').attr('href'), '_blank');
             });
         });
     </script>

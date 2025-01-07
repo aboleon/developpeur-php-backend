@@ -82,7 +82,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link static" target="_blank"
-                       href="{{ asset('media/AndrianMihailov2024.pdf') }}">PDF</a>
+                       href="{{ asset('media/AndrianMihailov2025.pdf') }}">PDF</a>
                 </li>
             </ul>
         </div>
