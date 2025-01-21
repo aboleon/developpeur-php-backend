@@ -23,8 +23,8 @@
 
         <p><b>Appréciant le contact social</b>, j'aime les débats et discussions de qualité. A l'aise en public, j'ai pu
             présenter diverses organisations lors d'évènements publics comme salons internationaux ou de commerce. Lors
-            de mon service militaire, j'étais sélectionné pour encadrer les nouveaux appelés. Je parle et écrit
-            couramment l'anglais à des fins personnels et professionnels, ainsi que le bulgare, qui est ma langue
+            de mon service militaire, j'étais sélectionné pour encadrer les nouveaux appelés. <b>Je parle et écrit
+            couramment l'anglais</b> à des fins personnels et professionnels, ainsi que le bulgare, qui est ma langue
             native.</p>
 
         <p><b>Mon expérience dans le tourisme</b> en début de carrière m'a offert la possibilité de pouvoir travailler

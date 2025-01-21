@@ -36,7 +36,7 @@
                             <ul>
                                 <li>Applications métiers complexes</li>
                                 <li>Outils de production internes</li>
-                                <li>Optimization des processus de production</li>
+                                <li>Optimisation des processus de production</li>
                                 <li>Architecture logicielle et design de systèmes d'information par domaine de métier
                                 </li>
                             </ul>
